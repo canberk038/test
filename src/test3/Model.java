@@ -16,7 +16,7 @@ public class Model extends java.util.Observable {
 		
 		this.counter=value;
 		System.out.println("Model initial value"+counter);
-		System.out.println("Canberk");
+		//System.out.println("Canberk");
 		
 		setChanged();
 		notifyObservers(counter);
